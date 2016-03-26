@@ -1,0 +1,91 @@
+[INFO ] 2016-03-15 11:52:00 org.springframework.test.context.support.DefaultTestContextBootstrapper Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+[INFO ] 2016-03-15 11:52:00 org.springframework.test.context.support.DefaultTestContextBootstrapper Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@174d20a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66d2e7d9]
+[INFO ] 2016-03-15 11:52:01 org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from URL [file:/D:/java_workspace/MyProject/target/classes/spring4.xml]
+[INFO ] 2016-03-15 11:52:01 org.springframework.context.support.GenericApplicationContext Refreshing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 11:52:01 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 11:52:01 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2016-03-15 11:52:01 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-15 11:52:01 spring.oxm.TestOfOxm xml: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><man><name>wangliqiu</name><isMale>true</isMale><homes><address>shanghai</address></homes><homes><address>beijing</address></homes></man>
+[INFO ] 2016-03-15 11:52:01 spring.oxm.TestOfOxm json: 
+{"name":"wangliqiu","isMale":true,"homes":[{"address":"shanghai"},{"address":"beijing"}]}
+[INFO ] 2016-03-15 11:52:01 spring.oxm.TestOfOxm shanghaitrue
+[INFO ] 2016-03-15 11:52:01 org.springframework.context.support.GenericApplicationContext Closing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 11:52:01 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 11:55:05 org.springframework.test.context.support.DefaultTestContextBootstrapper Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+[INFO ] 2016-03-15 11:55:05 org.springframework.test.context.support.DefaultTestContextBootstrapper Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@174d20a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66d2e7d9]
+[INFO ] 2016-03-15 11:55:05 org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from URL [file:/D:/java_workspace/MyProject/target/classes/spring4.xml]
+[INFO ] 2016-03-15 11:55:05 org.springframework.context.support.GenericApplicationContext Refreshing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 11:55:05 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 11:55:05 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2016-03-15 11:55:05 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-15 11:55:05 spring.oxm.TestOfOxm xml: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><man><name>wangliqiu</name><isMale>true</isMale><age>27</age><homes><address>shanghai</address></homes><homes><address>beijing</address></homes></man>
+[INFO ] 2016-03-15 11:55:06 spring.oxm.TestOfOxm json: 
+{"name":"wangliqiu","isMale":true,"age":27,"homes":[{"address":"shanghai"},{"address":"beijing"}]}
+[INFO ] 2016-03-15 11:55:06 spring.oxm.TestOfOxm shanghaitrue27
+[INFO ] 2016-03-15 11:55:06 org.springframework.context.support.GenericApplicationContext Closing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 11:55:05 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 12:34:26 org.springframework.test.context.support.DefaultTestContextBootstrapper Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+[INFO ] 2016-03-15 12:34:26 org.springframework.test.context.support.DefaultTestContextBootstrapper Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@174d20a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66d2e7d9]
+[INFO ] 2016-03-15 12:34:27 org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from URL [file:/D:/java_workspace/MyProject/target/classes/spring4.xml]
+[INFO ] 2016-03-15 12:34:27 org.springframework.context.support.GenericApplicationContext Refreshing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 12:34:27 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 12:34:27 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2016-03-15 12:34:27 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-15 12:34:27 org.springframework.context.support.GenericApplicationContext Closing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 12:34:27 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 12:35:30 org.springframework.test.context.support.DefaultTestContextBootstrapper Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+[INFO ] 2016-03-15 12:35:30 org.springframework.test.context.support.DefaultTestContextBootstrapper Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@174d20a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66d2e7d9]
+[INFO ] 2016-03-15 12:35:30 org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from URL [file:/D:/java_workspace/MyProject/target/classes/spring4.xml]
+[INFO ] 2016-03-15 12:35:30 org.springframework.context.support.GenericApplicationContext Refreshing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 12:35:30 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 12:35:30 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2016-03-15 12:35:30 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-15 12:35:30 spring.oxm.TestOfOxm xml: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><man><name>wangliqiu</name><isMale>true</isMale><age>27</age><homes><address>shanghai</address></homes><homes><address>beijing</address></homes><cards><msg>ideal1</msg></cards><cards><msg>ideal2</msg></cards></man>
+[INFO ] 2016-03-15 12:35:30 spring.oxm.TestOfOxm json: 
+{"name":"wangliqiu","isMale":true,"age":27,"homes":[{"address":"shanghai"},{"address":"beijing"}],"cards":[{"msg":"ideal1"},{"msg":"ideal2"}]}
+[INFO ] 2016-03-15 12:35:30 spring.oxm.TestOfOxm shanghaitrue27ideal1
+[INFO ] 2016-03-15 12:35:30 org.springframework.context.support.GenericApplicationContext Closing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 12:35:30 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 16:02:40 org.springframework.test.context.support.DefaultTestContextBootstrapper Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+[INFO ] 2016-03-15 16:02:40 org.springframework.test.context.support.DefaultTestContextBootstrapper Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@174d20a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66d2e7d9]
+[INFO ] 2016-03-15 16:02:40 org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from URL [file:/D:/java_workspace/MyProject/target/classes/spring4.xml]
+[INFO ] 2016-03-15 16:02:40 org.springframework.context.support.GenericApplicationContext Refreshing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 16:02:40 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 16:02:40 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2016-03-15 16:02:40 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-15 16:02:40 spring.oxm.TestOfOxm xml: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><man><name>wangliqiu</name><isMale>true</isMale><age>27</age><homes><address>shanghai</address></homes><homes><address>beijing</address></homes><cards><msg>ideal1</msg></cards><cards><msg>ideal2</msg></cards></man>
+[INFO ] 2016-03-15 16:02:41 spring.oxm.TestOfOxm json: 
+{"name":"wangliqiu","isMale":true,"age":27,"homes":[{"address":"shanghai"},{"address":"beijing"}],"cards":[{"msg":"ideal1"},{"msg":"ideal2"}]}
+[INFO ] 2016-03-15 16:02:41 spring.oxm.TestOfOxm shanghaitrue27ideal1
+[INFO ] 2016-03-15 16:02:41 org.springframework.context.support.GenericApplicationContext Closing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 16:02:40 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 16:05:12 org.springframework.test.context.support.DefaultTestContextBootstrapper Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+[INFO ] 2016-03-15 16:05:12 org.springframework.test.context.support.DefaultTestContextBootstrapper Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@174d20a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66d2e7d9]
+[INFO ] 2016-03-15 16:05:12 org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from URL [file:/D:/java_workspace/MyProject/target/classes/spring4.xml]
+[INFO ] 2016-03-15 16:05:12 org.springframework.context.support.GenericApplicationContext Refreshing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 16:05:12 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 16:05:12 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2016-03-15 16:05:12 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-15 16:05:12 spring.oxm.TestOfOxm xml: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><man><name>wangliqiu</name><isMale>true</isMale><age>27</age><homes><address>shanghai</address></homes><homes><address>beijing</address></homes><cards><msg>ideal1</msg></cards><cards><msg>ideal2</msg></cards></man>
+[INFO ] 2016-03-15 16:05:12 spring.oxm.TestOfOxm json: 
+{"name":"wangliqiu","isMale":true,"age":27,"homes":[{"address":"shanghai"},{"address":"beijing"}],"cards":[{"msg":"ideal1"},{"msg":"ideal2"}]}
+[INFO ] 2016-03-15 16:05:13 spring.oxm.TestOfOxm shanghaitrue27ideal1
+[INFO ] 2016-03-15 16:05:13 org.springframework.context.support.GenericApplicationContext Closing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 16:05:12 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 16:05:38 org.springframework.test.context.support.DefaultTestContextBootstrapper Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+[INFO ] 2016-03-15 16:05:38 org.springframework.test.context.support.DefaultTestContextBootstrapper Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@174d20a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66d2e7d9]
+[INFO ] 2016-03-15 16:05:38 org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from URL [file:/D:/java_workspace/MyProject/target/classes/spring4.xml]
+[INFO ] 2016-03-15 16:05:38 org.springframework.context.support.GenericApplicationContext Refreshing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 16:05:38 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 16:05:39 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2016-03-15 16:05:39 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-15 16:05:39 spring.oxm.TestOfOxm xml: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><man><name>wangliqiu</name><isMale>true</isMale><age>27</age><homes><address>shanghai</address></homes><homes><address>beijing</address></homes><cards><msg>ideal1</msg></cards><cards><msg>ideal2</msg></cards></man>
+[INFO ] 2016-03-15 16:05:39 spring.oxm.TestOfOxm json: 
+{"name":"wangliqiu","isMale":true,"age":27,"homes":[{"address":"shanghai"},{"address":"beijing"}],"cards":[{"msg":"ideal1"},{"msg":"ideal2"}]}
+[INFO ] 2016-03-15 16:05:39 spring.oxm.TestOfOxm shanghaitrue27ideal1
+[INFO ] 2016-03-15 16:05:39 org.springframework.context.support.GenericApplicationContext Closing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 16:05:38 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 16:06:32 org.springframework.test.context.support.DefaultTestContextBootstrapper Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+[INFO ] 2016-03-15 16:06:32 org.springframework.test.context.support.DefaultTestContextBootstrapper Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@174d20a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@66d2e7d9]
+[INFO ] 2016-03-15 16:06:32 org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from URL [file:/D:/java_workspace/MyProject/target/classes/spring4.xml]
+[INFO ] 2016-03-15 16:06:32 org.springframework.context.support.GenericApplicationContext Refreshing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 16:06:32 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-15 16:06:32 org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO ] 2016-03-15 16:06:32 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-15 16:06:32 spring.oxm.TestOfOxm xml: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><man><name>wangliqiu</name><isMale>true</isMale><age>27</age><homes><address>shanghai</address></homes><homes><address>beijing</address></homes><cards><msg>ideal1</msg></cards><cards><msg>ideal2</msg></cards></man>
+[INFO ] 2016-03-15 16:06:33 spring.oxm.TestOfOxm json: 
+{"name":"wangliqiu","isMale":true,"age":27,"homes":[{"address":"shanghai"},{"address":"beijing"}],"cards":[{"msg":"ideal1"},{"msg":"ideal2"}]}
+[INFO ] 2016-03-15 16:06:33 spring.oxm.TestOfOxm shanghaitrue27ideal1
+[INFO ] 2016-03-15 16:06:33 org.springframework.context.support.GenericApplicationContext Closing org.springframework.context.support.GenericApplicationContext@13deb50e: startup date [Tue Mar 15 16:06:32 CST 2016]; root of context hierarchy

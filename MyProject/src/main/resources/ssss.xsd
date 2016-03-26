@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--被XMLSpy vW3C Schema产生的2012 (http://www.altova.com)-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="TransactionID">
+		<xs:simpleType>
+			<xs:restriction base="xs:decimal">
+				<xs:enumeration value="1000000020200909160000000047.0"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="TcpCont">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="BusCode"/>
+				<xs:element ref="ServiceCode"/>
+				<xs:element ref="ServiceContractVer"/>
+				<xs:element ref="ActionCode"/>
+				<xs:element ref="TransactionID"/>
+				<xs:element ref="ServiceLevel"/>
+				<xs:element ref="SrcOrgID"/>
+				<xs:element ref="SrcSysID"/>
+				<xs:element ref="SrcSysSign"/>
+				<xs:element ref="DstOrgID"/>
+				<xs:element ref="DstSysID"/>
+				<xs:element ref="ReqTime"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="TallySrc">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="SRC0002"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="TallyAction">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="TT"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Svctype">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="SvcValue">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="SvcType">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="SvcRecords">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Svctype"/>
+				<xs:element ref="ServiceNo"/>
+				<xs:element ref="SvcCodeA"/>
+				<xs:element ref="SvcCode"/>
+				<xs:element ref="SvcDisc"/>
+				<xs:element ref="SvcValue"/>
+				<xs:element ref="Price"/>
+				<xs:element ref="Amount"/>
+				<xs:element ref="DeliverStatus"/>
+				<xs:element ref="Score"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SvcPlace">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="号百商城"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="SvcLevel">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="SvcDisc">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="号百商城礼品兑换"/>
+				<xs:enumeration value="国漫免预存/押金开通"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="SvcCont">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="PointSvc"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="SvcCodeA">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="21"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="SvcCode">
+		<xs:simpleType>
+			<xs:restriction base="xs:int">
+				<xs:enumeration value="100800"/>
+				<xs:enumeration value="18"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="StaffCode">
+		<xs:complexType/>
+	</xs:element>
+	<xs:element name="SrcSysSign">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="123"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="SrcSysID">
+		<xs:simpleType>
+			<xs:restriction base="xs:int">
+				<xs:enumeration value="1000000020"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="SrcOrgID">
+		<xs:simpleType>
+			<xs:restriction base="xs:int">
+				<xs:enumeration value="100000"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ServiceNo">
+		<xs:simpleType>
+			<xs:restriction base="xs:short">
+				<xs:enumeration value="1001"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ServiceLevel">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ServiceContractVer">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="SVC1700220151120"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ServiceCode">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="SVC17002"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Score">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ReqTime">
+		<xs:simpleType>
+			<xs:restriction base="xs:long">
+				<xs:enumeration value="20090916104349"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Price">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="0"/>
+				<xs:enumeration value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="PointSvc">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ChannelNbr"/>
+				<xs:element ref="StaffCode"/>
+				<xs:element ref="TallySrc"/>
+				<xs:element ref="OrderNbr"/>
+				<xs:element ref="TallyAction"/>
+				<xs:element ref="PartyCodeInfo"/>
+				<xs:element ref="SvcLevel"/>
+				<xs:element ref="SvcType"/>
+				<xs:element ref="SvcPlace"/>
+				<xs:element ref="SvcRecords" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="PartyCodeInfo">
+		<xs:complexType mixed="true">
+			<xs:sequence>
+				<xs:element ref="CodeType"/>
+				<xs:element ref="CodeValue"/>
+				<xs:element ref="CityCode"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="OrderNbr">
+		<xs:simpleType>
+			<xs:restriction base="xs:long">
+				<xs:enumeration value="50311000002"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="DstSysID">
+		<xs:simpleType>
+			<xs:restriction base="xs:long">
+				<xs:enumeration value="6099060001"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="DstOrgID">
+		<xs:simpleType>
+			<xs:restriction base="xs:int">
+				<xs:enumeration value="609906"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="DeliverStatus">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="0"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ContractRoot">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="TcpCont"/>
+				<xs:element ref="SvcCont"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="CodeValue">
+		<xs:simpleType>
+			<xs:restriction base="xs:long">
+				<xs:enumeration value="13313211111"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="CodeType">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="CityCode">
+		<xs:simpleType>
+			<xs:restriction base="xs:short">
+				<xs:enumeration value="311"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ChannelNbr">
+		<xs:complexType/>
+	</xs:element>
+	<xs:element name="BusCode">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="BUS33001"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Amount">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="1"/>
+				<xs:enumeration value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ActionCode">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="0"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>

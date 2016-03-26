@@ -1,0 +1,81 @@
+[DEBUG] 2016-03-23 12:48:14 wangliqiu.util.IOUtil <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:m0="urn:_HB0rderWS.services.localhost" xmlns:m1="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<m:doTally xmlns:m="http://localhost:8080/services/HBGroupWS" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+			<pointsTally xsi:type="m0:PointsTally">
+				<amount xsi:type="m1:string" id="" href=""/>
+				<createDt xsi:type="m1:string" id="" href=""/>
+				<dealTime xsi:type="m1:string" id="" href=""/>
+				<orderNbr xsi:type="m1:string" id="" href=""/>
+				<partyCodeInfo xsi:type="m0:PartyCodeInfo">
+					<cityCode xsi:type="m1:string" id="" href=""/>
+					<codeType xsi:type="m1:string" id="" href=""/>
+					<codeValue xsi:type="m1:string" id="" href=""/>
+				</partyCodeInfo>
+				<pointsTallyProperty xsi:type="SOAP-ENC:Array"/>
+				<svcLevel xsi:type="m1:string" id="" href=""/>
+				<svcPlace xsi:type="m1:string" id="" href=""/>
+				<svcRecords xsi:type="SOAP-ENC:Array"/>
+				<svcType xsi:type="m1:string" id="" href=""/>
+				<tallyAction xsi:type="m1:string" id="" href=""/>
+				<tallySrc xsi:type="m1:string" id="" href=""/>
+				<totalScore xsi:type="m1:string" id="" href=""/>
+			</pointsTally>
+		</m:doTally>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+[DEBUG] 2016-03-23 12:50:37 wangliqiu.util.IOUtil <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:m0="urn:_HB0rderWS.services.localhost" xmlns:m1="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<m:doTally xmlns:m="http://localhost:8080/services/HBGroupWS" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+			<pointsTally xsi:type="m0:PointsTally">
+				<amount xsi:type="m1:string" id="" href=""/>
+				<createDt xsi:type="m1:string" id="" href=""/>
+				<dealTime xsi:type="m1:string" id="" href=""/>
+				<orderNbr xsi:type="m1:string" id="" href=""/>
+				<partyCodeInfo xsi:type="m0:PartyCodeInfo">
+					<cityCode xsi:type="m1:string" id="" href=""/>
+					<codeType xsi:type="m1:string" id="" href=""/>
+					<codeValue xsi:type="m1:string" id="" href=""/>
+				</partyCodeInfo>
+				<pointsTallyProperty xsi:type="SOAP-ENC:Array"/>
+				<svcLevel xsi:type="m1:string" id="" href=""/>
+				<svcPlace xsi:type="m1:string" id="" href=""/>
+				<svcRecords xsi:type="SOAP-ENC:Array"/>
+				<svcType xsi:type="m1:string" id="" href=""/>
+				<tallyAction xsi:type="m1:string" id="" href=""/>
+				<tallySrc xsi:type="m1:string" id="" href=""/>
+				<totalScore xsi:type="m1:string" id="" href=""/>
+			</pointsTally>
+		</m:doTally>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+
+[DEBUG] 2016-03-23 13:01:13 wangliqiu.util.IOUtil <?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:m0="urn:_HB0rderWS.services.localhost" xmlns:m1="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<m:doTally xmlns:m="http://localhost:8080/services/HBGroupWS" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+			<pointsTally xsi:type="m0:PointsTally">
+				<amount xsi:type="m1:string" id="" href=""/>
+				<createDt xsi:type="m1:string" id="" href=""/>
+				<dealTime xsi:type="m1:string" id="" href=""/>
+				<orderNbr xsi:type="m1:string" id="" href=""/>
+				<partyCodeInfo xsi:type="m0:PartyCodeInfo">
+					<cityCode xsi:type="m1:string" id="" href=""/>
+					<codeType xsi:type="m1:string" id="" href=""/>
+					<codeValue xsi:type="m1:string" id="" href=""/>
+				</partyCodeInfo>
+				<pointsTallyProperty xsi:type="SOAP-ENC:Array"/>
+				<svcLevel xsi:type="m1:string" id="" href=""/>
+				<svcPlace xsi:type="m1:string" id="" href=""/>
+				<svcRecords xsi:type="SOAP-ENC:Array"/>
+				<svcType xsi:type="m1:string" id="" href=""/>
+				<tallyAction xsi:type="m1:string" id="" href=""/>
+				<tallySrc xsi:type="m1:string" id="" href=""/>
+				<totalScore xsi:type="m1:string" id="" href=""/>
+			</pointsTally>
+		</m:doTally>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+

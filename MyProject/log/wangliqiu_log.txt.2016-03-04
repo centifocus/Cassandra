@@ -1,0 +1,69 @@
+[INFO ] 2016-03-04 16:14:30 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [wangliqiu.model]
+[INFO ] 2016-03-04 16:16:53 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-04 16:24:17 org.springframework.test.context.support.DefaultTestContextBootstrapper Neither @ContextConfiguration nor @ContextHierarchy found for test class [wangliqiu.test.util.TestOf]
+[INFO ] 2016-03-04 16:24:17 org.springframework.test.context.support.DefaultTestContextBootstrapper Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[INFO ] 2016-03-04 16:24:17 org.springframework.test.context.support.DefaultTestContextBootstrapper Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+[INFO ] 2016-03-04 16:24:17 org.springframework.test.context.support.DefaultTestContextBootstrapper Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@380fb434, org.springframework.test.context.support.DirtiesContextTestExecutionListener@668bc3d5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3cda1055, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7a5d012c]
+[ERROR] 2016-03-04 16:24:17 org.springframework.test.context.TestContextManager Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@380fb434] to prepare test instance [wangliqiu.test.util.TestOf@26f67b76]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:94)
+	at org.springframework.test.context.DefaultTestContext.getApplicationContext(DefaultTestContext.java:72)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:117)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:212)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:200)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:259)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:261)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:219)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:83)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:68)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:163)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+Caused by: java.lang.IllegalArgumentException: Cannot load an ApplicationContext with a NULL 'contextLoader'. Consider annotating your test class with @ContextConfiguration or @ContextHierarchy.
+	at org.springframework.util.Assert.notNull(Assert.java:112)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:61)
+	at org.springframework.test.context.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:86)
+	... 25 more
+[INFO ] 2016-03-04 16:33:03 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-04 16:41:49 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-04 16:58:40 org.springframework.test.context.support.DefaultTestContextBootstrapper Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+[INFO ] 2016-03-04 16:58:40 org.springframework.test.context.support.DefaultTestContextBootstrapper Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4157f54e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@90f6bfd]
+[INFO ] 2016-03-04 16:58:41 org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from URL [file:/D:/java_workspace/MyProject/target/classes/spring4.xml]
+[INFO ] 2016-03-04 16:58:41 org.springframework.context.support.GenericApplicationContext Refreshing org.springframework.context.support.GenericApplicationContext@4b9e13df: startup date [Fri Mar 04 16:58:41 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-04 16:58:41 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-04 16:58:41 org.springframework.context.support.GenericApplicationContext Closing org.springframework.context.support.GenericApplicationContext@4b9e13df: startup date [Fri Mar 04 16:58:41 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-04 17:00:46 org.springframework.test.context.support.DefaultTestContextBootstrapper Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+[INFO ] 2016-03-04 17:00:46 org.springframework.test.context.support.DefaultTestContextBootstrapper Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4157f54e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@90f6bfd]
+[INFO ] 2016-03-04 17:00:46 org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from URL [file:/D:/java_workspace/MyProject/target/classes/spring4.xml]
+[INFO ] 2016-03-04 17:00:46 org.springframework.context.support.GenericApplicationContext Refreshing org.springframework.context.support.GenericApplicationContext@4b9e13df: startup date [Fri Mar 04 17:00:46 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-04 17:00:46 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-04 17:00:46 org.springframework.context.support.GenericApplicationContext Closing org.springframework.context.support.GenericApplicationContext@4b9e13df: startup date [Fri Mar 04 17:00:46 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-04 17:12:28 org.springframework.test.context.support.DefaultTestContextBootstrapper Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+[INFO ] 2016-03-04 17:12:28 org.springframework.test.context.support.DefaultTestContextBootstrapper Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@67b6d4ae, org.springframework.test.context.support.DirtiesContextTestExecutionListener@34b7bfc0]
+[INFO ] 2016-03-04 17:12:28 org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from URL [file:/D:/java_workspace/MyProject/target/classes/spring4.xml]
+[INFO ] 2016-03-04 17:12:28 org.springframework.context.support.GenericApplicationContext Refreshing org.springframework.context.support.GenericApplicationContext@4501b7af: startup date [Fri Mar 04 17:12:28 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-04 17:12:28 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-04 17:12:28 spring.oxm.TestOfOxm xml: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><man><name>wangliqiu</name><sex>male</sex><home><address>shanghai</address></home></man>
+[INFO ] 2016-03-04 17:12:28 org.springframework.context.support.GenericApplicationContext Closing org.springframework.context.support.GenericApplicationContext@4501b7af: startup date [Fri Mar 04 17:12:28 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-04 17:18:53 org.springframework.test.context.support.DefaultTestContextBootstrapper Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+[INFO ] 2016-03-04 17:18:53 org.springframework.test.context.support.DefaultTestContextBootstrapper Using TestExecutionListeners: [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@67b6d4ae, org.springframework.test.context.support.DirtiesContextTestExecutionListener@34b7bfc0]
+[INFO ] 2016-03-04 17:18:54 org.springframework.beans.factory.xml.XmlBeanDefinitionReader Loading XML bean definitions from URL [file:/D:/java_workspace/MyProject/target/classes/spring4.xml]
+[INFO ] 2016-03-04 17:18:54 org.springframework.context.support.GenericApplicationContext Refreshing org.springframework.context.support.GenericApplicationContext@4501b7af: startup date [Fri Mar 04 17:18:54 CST 2016]; root of context hierarchy
+[INFO ] 2016-03-04 17:18:54 org.springframework.oxm.jaxb.Jaxb2Marshaller Creating JAXBContext by scanning packages [spring.oxm]
+[INFO ] 2016-03-04 17:18:54 spring.oxm.TestOfOxm xml: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><man><name>wangliqiu</name><sex>male</sex><home><address>shanghai</address></home></man>
+[INFO ] 2016-03-04 17:18:54 org.springframework.context.support.GenericApplicationContext Closing org.springframework.context.support.GenericApplicationContext@4501b7af: startup date [Fri Mar 04 17:18:54 CST 2016]; root of context hierarchy

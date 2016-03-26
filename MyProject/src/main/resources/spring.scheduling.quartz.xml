@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  			
+       		xsi:schemaLocation="http://www.springframework.org/schema/beans    
+                        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd" >
+	
+		
+	<!-- =================== 静态配置=========================== -->
+	<!-- Job实体类 -->
+	<bean id="taskJob1" class="wangliqiu.quartz.Job1" /> 
+	
+	<!-- JobDetail -->
+	<bean id="jobDetail1" class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+   	 	<!-- group和name是jobDetail的唯一标识 -->
+    	<property name="group" value="job_group" />
+    	<property name="name" value="job_name_1" />
+    	<!-- false表示：例如jobA每隔5秒执行一次，若jobA执行时间超过5秒，下一个jobA仍不会执行，直到前一个jobA执行完成 -->
+    	<property name="concurrent" value="false" />
+    	<!-- 调用的job -->
+    	<property name="targetObject" ref="taskJob1" />   	
+    	<property name="targetMethod" value="doJob" />   
+  	</bean>  	
+  	 
+	<!-- Trigger -->
+  	<bean id="trigger1" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+  		<!-- group和name是Trigger的唯一标识 -->
+  		<property name="group" value="trigger_group" />
+    	<property name="name" value="trigger_name_1" />
+    	<!-- 绑定jobDetail -->
+    	<property name="jobDetail" ref="jobDetail1" />      		
+    	<property name="cronExpression">
+      		<value>0/5 * * * * ?</value>
+    	</property>
+  	</bean> 
+
+	<!-- Scheduler -->
+  	<bean id="scheduler" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+	    <property name="triggers">
+	      	<list>
+	        	<ref bean="trigger1" /> 
+	      	</list>
+	    </property>
+  	</bean>
+
+
+
+</beans>

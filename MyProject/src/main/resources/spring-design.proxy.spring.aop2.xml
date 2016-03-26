@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+			xmlns:mvc="http://www.springframework.org/schema/mvc"
+			xmlns:aop="http://www.springframework.org/schema/aop"       		
+       		xmlns:context="http://www.springframework.org/schema/context"
+       		xmlns:tx="http://www.springframework.org/schema/tx"  
+    		xmlns:task="http://www.springframework.org/schema/task" 
+       		xsi:schemaLocation="http://www.springframework.org/schema/beans    
+                        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+                       	http://www.springframework.org/schema/mvc 
+						http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+                        http://www.springframework.org/schema/aop
+						http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context-4.0.xsd
+						http://www.springframework.org/schema/tx 
+						http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+						http://www.springframework.org/schema/task 
+    					http://www.springframework.org/schema/task/spring-task-4.0.xsd">
+	
+
+
+	<!--  当被代理类没有接口时，我们必须使用cglib代理，否则会出现类型转换异常等一堆错误 -->
+	<aop:aspectj-autoproxy />  
+	
+	<bean id="human" class="design.proxy.spring.aop.Human" />	<!--  被代理类 -->
+	<bean id="sleepHelper" class="design.proxy.spring.aop.SleepHelper" />	
+	<aop:config>
+		<aop:pointcut id="point1" expression="execution(* design.proxy.spring..*.sleep(..))" />
+	
+	    <aop:aspect id="firstAspect" order="1" ref="sleepHelper">  <!-- order指定优先级 -->
+	    	<!-- 前一个*是返回类型， ..*表示任意， (..)表示任意参数-->
+		    <aop:before method="beforeSleep" pointcut-ref="point1" />
+		    <aop:after method="afterSleep" pointcut="execution(* design.proxy.spring.aop.Human.sleep(String))"/>
+	   		<aop:after-throwing throwing="ex" method="handleException" pointcut-ref="point1"  />  
+	    </aop:aspect>
+	</aop:config>
+ 
+	 
+
+</beans>

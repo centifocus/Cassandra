@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<head>
+ 	<version>1.01</version>
+	<mq name="REQ">
+	    <prop name="readMqHostName">127333.0.1</prop>
+	    <prop name="readMqChannel">1111111</prop>
+	    <prop name="readMqManager">222222222</prop>
+	    <prop name="readMqName">33333333</prop>	    
+	</mq>
+	<mq name="SET">	    
+	    <prop name="readMqHostName">444444</prop>
+	    <prop name="readMqPort" type="r">55555555</prop>
+	    <prop name="waitInterval" type="rw">666666</prop>
+	    <prop name="listenerName">com.ideal.soo.biz.SooTaskForkListener</prop>
+	</mq>
+	<mq>
+		<ss>ssssssss</ss>
+		<ss>ssssssss</ss>
+		<ss>ssssssss</ss>
+		<ss>ssssssss</ss>
+		<ss>ssssssss</ss>
+	</mq>
+	
+</head>
+
+<!--   xmlns为xml命名空间（dom4j中XPath.setNamespaceURIs()），NS1为元素前缀；
+当命名空间被定义在元素的开始标签中时，所有带有相同前缀的子元素都会与同一个命名空间相关联。
+
+<NS1:Envelope xmlns:NS1="http://schemas.xmlsoap.org/soap/envelope/">
+	<NS1:Header>
+		<NS2:CSBHeader xmlns:NS2="http://www.shtel.com.cn/csb/v2/">
+			<ServiceType>GroupAdapter</ServiceType>
+			<ServiceName>SVC80002_BUS80001_GROUP</ServiceName>
+			<ServiceVer>0.1</ServiceVer>
+			<Consumer>GROUP</Consumer>
+			<RequestTime>2014-05-30 11:10:50.080</RequestTime>
+		</NS2:CSBHeader>
+	</NS1:Header>
+</NS1:Envelope>
+
+-->

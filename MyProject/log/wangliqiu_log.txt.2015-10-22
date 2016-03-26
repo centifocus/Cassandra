@@ -1,0 +1,22 @@
+[INFO ] 2015-10-22 11:15:27 wangliqiu.test.common.JustTest dps  117.64705882352942
+[INFO ] 2015-10-22 11:15:27 wangliqiu.test.common.JustTest dpsAdd  35.29411764705884
+[INFO ] 2015-10-22 11:18:02 wangliqiu.test.common.JustTest dps  117.64705882352942 dps1 200.0
+[INFO ] 2015-10-22 11:18:02 wangliqiu.test.common.JustTest dpsAdd  35.29411764705884  dpsAdd1  60.0
+[INFO ] 2015-10-22 11:21:19 wangliqiu.test.common.JustTest dps  117.64705882352942 dps1 200.0
+[INFO ] 2015-10-22 11:21:19 wangliqiu.test.common.JustTest dpsAdd  35.29411764705884  dpsAdd1  60.0
+[INFO ] 2015-10-22 11:21:19 wangliqiu.test.common.JustTest 1.7
+[INFO ] 2015-10-22 11:22:24 wangliqiu.test.common.JustTest dps  117.64705882352942 dps1 200.0
+[INFO ] 2015-10-22 11:22:24 wangliqiu.test.common.JustTest dpsAdd  35.29411764705884  dpsAdd1  60.0
+[INFO ] 2015-10-22 11:22:24 wangliqiu.test.common.JustTest 1.7   1.6999999999999993
+[INFO ] 2015-10-22 14:23:29 wangliqiu.test.common.JustTest dps  211.76470588235296 dps1 360.0
+[INFO ] 2015-10-22 14:23:29 wangliqiu.test.common.JustTest dpsAdd  63.529411764705884  dpsAdd1  108.0
+[INFO ] 2015-10-22 14:23:29 wangliqiu.test.common.JustTest 1.7   1.7
+[INFO ] 2015-10-22 14:28:49 wangliqiu.test.common.JustTest dps  285.88235294117646 dps1 486.0
+[INFO ] 2015-10-22 14:28:49 wangliqiu.test.common.JustTest dpsAdd  -10.588235294117624  dpsAdd1  -18.0
+[INFO ] 2015-10-22 14:28:49 wangliqiu.test.common.JustTest 1.7   1.7000000000000037
+[INFO ] 2015-10-22 14:29:06 wangliqiu.test.common.JustTest dps  285.88235294117646 dps1 486.0
+[INFO ] 2015-10-22 14:29:06 wangliqiu.test.common.JustTest dpsAdd  85.76470588235298  dpsAdd1  145.80000000000007
+[INFO ] 2015-10-22 14:29:06 wangliqiu.test.common.JustTest 1.7   1.7
+[INFO ] 2015-10-22 14:34:48 wangliqiu.test.common.JustTest dps  285.88235294117646 dps1 486.0
+[INFO ] 2015-10-22 14:34:48 wangliqiu.test.common.JustTest dpsAdd  85.76470588235298  dpsAdd1  145.80000000000007
+[INFO ] 2015-10-22 14:34:48 wangliqiu.test.common.JustTest 1.7   1.7

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE log4j:configuration SYSTEM "E:\eclipse\xsd\log4j.dtd">
+  
+<log4j:configuration xmlns:log4j='http://jakarta.apache.org/log4j/'> 
+
+	<appender name="CONSOLE" class="org.apache.log4j.ConsoleAppender">		
+		<layout class="org.apache.log4j.PatternLayout"> 
+			<param name="ConversionPattern" value="[%t][%-5p] %d{yyyy-MM-dd HH:mm:ss} %l %m%n" /> 
+		</layout>		
+	</appender> 
+	
+	<appender name="FILE" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="File" value="log/wangliqiu_log.txt" />
+		<param name="Append" value="true" />
+		<param name="encoding" value="GBK" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern"	value="[%-5p] %d{yyyy-MM-dd HH:mm:ss} %c %m%n" />
+		</layout>				
+	</appender>
+<!--   	
+ 	<logger name="logger" additivity="false">     
+        <level value="debug" />     
+        <appender-ref ref="FILE" />     
+    </logger> 
+ -->   
+	<category name="wangliqiu" additivity="false">
+	  	<priority value="debug" />
+	  	<appender-ref ref="FILE" />
+	  	<appender-ref ref="CONSOLE" />	
+ 	</category>
+ 	 
+	<root> 
+		<priority value="info" />		
+		<appender-ref ref="FILE" />
+	  	<appender-ref ref="CONSOLE" />	
+	</root>
+		
+</log4j:configuration>

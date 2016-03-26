@@ -1,0 +1,4 @@
+[DEBUG] 2016-03-24 10:45:51 wangliqiu.util.IOUtil {"cust_code":"202120024066","service_id":"18988051265","requestid":"wmh2016032310020004","reqlist":[{"right_code":"100300","right_resource":"1000","hold_num":"1"}],"exe_channel":"1000","location":"1-4GG1-27","login_id":"KONGYAGE"}
+
+[DEBUG] 2016-03-24 10:49:36 wangliqiu.util.IOUtil {"cust_code":"202120024066","service_id":"18988051265","requestid":"wmh2016032310020004","reqlist":[{"right_code":"100300","right_resource":"1000","hold_num":"1"}],"exe_channel":"1000","location":"1-4GG1-27","login_id":"KONGYAGE"}
+
